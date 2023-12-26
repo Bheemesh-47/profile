@@ -1,4 +1,4 @@
-# <i><b><span style="color: red; font-family: 'Bebas Neue'">Important Interview Questions on Java</span></b></i>
+# <i><b><span style="color: Maroon; font-family: 'Bebas Neue'">Important Interview Questions on Java</span></b></i>
 
 ### <b>1. What is a Program?</b>
 A Program is defined as the series of instructions.
