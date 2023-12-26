@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class LaunchException {
+	public static void main(String[] args) {
+		try {
+			System.out.println("Division Operation");
+			Scanner sc = new Scanner(System.in);
+			System.out.println("Enter the Numerator: ");
+			int num = sc.nextInt();//critical statement ----> input mismatch exception
+			System.out.println("Enter the denominator: ");
+			int den = sc.nextInt();//critical statement ----> input mismatch exception
+			int res = num/den;//critical statement ----> arithmetic exception
+			System.out.println(res);
+			
+			System.out.println("Array Operation");
+			System.out.println("Enter the array size: ");
+			int n = sc.nextInt();
+			int arr[] = new int[n];
+			System.out.println("Enter the position number : ");
+			int pos = sc.nextInt();
+			
+		}
+		catch (Exception e) {
+			System.out.println("Exception Handled in Main");
+		}
+	}
+}

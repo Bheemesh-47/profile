@@ -1,0 +1,7 @@
+ int n = 11;
+ rows are represented using "i"
+ columns are represented using "j"
+ 
+ Condition Sets:
+ 1. i==0		---> First Row
+ 2. i==(n-1)	---> Last Row

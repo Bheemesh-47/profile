@@ -1,0 +1,51 @@
+import java.util.Scanner;
+
+abstract class Shapes{
+	double area;
+	
+	abstract void collectData();
+	abstract void calculate();
+	void display() {
+		System.out.println(area);
+	}
+}
+class Circle extends Shapes{
+	double r;
+	double pi=3.14768;
+	
+	@Override
+	void collectData() {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the radius: ");
+		r = sc.nextDouble();
+	}
+
+	@Override
+	void calculate() {
+		area=pi*r*r;
+	}
+	
+}
+class Square extends Shapes{
+	double side;
+	double pi=3.14768;
+	
+	@Override
+	void collectData() {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the side: ");
+		side = sc.nextDouble();
+	}
+
+	@Override
+	void calculate() {
+		area=pi*r*r;
+	}
+	
+}
+class Geometry{
+	
+}
+public class Launch2 {
+
+}

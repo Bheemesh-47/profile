@@ -1,0 +1,17 @@
+abstract class Plane{
+	
+}
+class CargoPlane extends Plane{
+	@Override
+	void fly() {
+		System.out.println("Cargo Plane took off");
+	}
+}
+public class Launch {
+	public static void main(String[] args) {
+		CargoPlane p = new CargoPlane();
+		p.takeOff();
+		p.fly();
+		p.land();
+	}
+}

@@ -1,0 +1,27 @@
+abstract class Shapes{
+	double area;
+	
+	abstract void collectData();
+	abstract void calculate();
+	void display() {
+		System.out.println(area);
+	}
+}
+class Circle extends Shapes{
+
+	@Override
+	void collectData() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	void calculate() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}
+public class Launch2 {
+
+}

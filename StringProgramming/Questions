@@ -1,0 +1,17 @@
+ int n = 11;
+ rows are represented using "i"
+ columns are represented using "j"
+ 
+ Condition Sets:
+ 1. i==0			---> First Row
+ 2. i==(n-1)		---> Last Row
+ 3. j==0			---> First Column
+ 4. j==(n-1)		---> Last Column
+ 5. i==(n/2)		---> Mid Row
+ 6. j==(n/2)		---> Mid Column
+ 7. i==j			---> Diagonal (big) (left - right)
+ 8. i+j==(n-1)		---> Diagonal (big) (right - left)
+ 9. i+j==(n/2)		---> Diagonal (small) (right - left) (top)
+10. j-i==(n/2)		---> Diagonal (small) (left - right) (top)
+11. i-j==(n/2)		---> Diagonal (small) (left - right) (bottom)
+12. i+j==(n-1)+(n/2)---> Diagonal (small) (right - left) (bottom)

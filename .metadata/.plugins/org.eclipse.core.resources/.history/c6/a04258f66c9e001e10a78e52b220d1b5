@@ -1,0 +1,12 @@
+abstract class Plane{
+	void takeOff() {
+		
+	}
+	abstract void fly();
+	void land() {
+		
+	}
+}
+public class Launch {
+
+}

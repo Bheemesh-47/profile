@@ -1,0 +1,8 @@
+abstract class Shapes{
+	double area;
+	
+	abstract void collectData();
+}
+public class Launch2 {
+
+}

@@ -1,0 +1,12 @@
+abstract class Shapes{
+	double area;
+	
+	abstract void collectData();
+	abstract void calculate();
+	void display() {
+		System.out.println(area);
+	}
+}
+public class Launch2 {
+
+}

@@ -1,0 +1,9 @@
+abstract class Plane{
+	void takeOff() {
+		
+	}
+	void fly();
+}
+public class Launch {
+
+}

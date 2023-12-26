@@ -1,0 +1,12 @@
+abstract class Plane{
+	
+}
+class CargoPlane extends Plane{
+	
+}
+public class Launch {
+	public static void main(String[] args) {
+		CargoPlane p = new CargoPlane();
+		Plane p = new Plane();
+	}
+}

@@ -1,0 +1,195 @@
+Strings in Java
+
+Definition: 
+String is a built-in class in java which is used 
+for storing series of characters or the sequence of character. 
+Strings in Java are present inside a package called as java.lang
+
+Types of Strings in Java:
+Strings in Java are classified into 2 types:
+1. Mutable Strings
+2. Immutable Strings
+
+Immutable Strings:
+	String which cannot be altered once it is created.
+	Immutable strings are represented using String Class
+	example: 
+	--> String s1 = "FootBall"; 			// Literal Based
+	--> String s2 = new String("FootBall"); // Object based
+
+Different Ways of Comparing the Immutable Strings
+1. equals()
+	class		: java.lang.String;
+	input		: String s1
+	output		: boolean
+	Description	: It is used for comparing the contents of the 2 Strings.
+				  If Strings are equal 		---> true
+				  If Strings are not equal	---> false
+				  
+2. equalsIgnoreCase()
+	class		: java.lang.String;
+	input		: String s1
+	output		: boolean
+	Description	: It is used for comparing the contents of the 2 Strings by ignoring the cases.
+				  If Strings are equal 		---> true
+				  If Strings are not equal	---> false
+				  
+3. == 
+	This is used for comparing the address of 2 strings
+	
+4. compareTo()
+	class		: java.lang.String;
+	input		: String s1
+	output		: numeric value
+	Description	: It is used for comparing the contents of the 2 Strings.
+				  If Strings are equal 		---> 0
+				  If Strings are not equal	---> difference between the mis-matched characters
+				  
+	F	o	o	t	B	a	l	l
+	|	|	|	|	|	|	|	|
+	f	o	o	t	b	a	l	l
+	
+	70	111	111	116	66	97	108	108
+	|	|	|	|	|	|	|	|
+	102	111	111	116	98	97	108	108
+--------------------------------------
+	-32
+--------------------------------------
+	F	o	o	t	B	a	l	l
+	|	|	|	|	|	|	|	|
+	B	a	s	e	b	a	l	l
+
+	70	111	111	116	66	97	108	108
+	|	|	|	|	|	|	|	|
+	66	97	115	101	98	97	108	108
+-------------------------------------	
+	4	
+--------------------------------------	
+	
+5. compareToIgnoreCase()
+	class		: java.lang.String;
+	input		: String s1
+	output		: numeric value
+	Description	: It is used for comparing the contents of the 2 Strings by ignoring the cases.
+				  If Strings are equal 		---> 0
+				  If Strings are not equal	---> difference between the mis-matched characters
+	F	o	o	t	B	a	l	l
+	|	|	|	|	|	|	|	|
+	f	o	o	t	b	a	l	l
+	
+	70	111	111	116	66	97	108	108
+	|	|	|	|	|	|	|	|
+	102	111	111	116	98	97	108	108
+------------------------------------				  
+	-32	0	0	0	-32	0	0	0
+--------------------------------------
+
+Mutable Strings
+	Strings which can be altered once it is created.
+	Mutable strings are represented using StringBuffer Class and StringBuilder Class.
+	example: 
+	--> StringBuffer s1 = new StringBuffer("FootBall"); 	// Object Based
+	--> StringBuilder s2 = new StringBuilder("FootBall"); 	// Object based
+--------------------------------------
+Methods inside the String Class
+1. toLowerCase()
+	class		: java.lang.String;
+	input		: No input
+	output		: String in Lower case
+	Description	: It is used to convert the string into complete lower case
+
+2. toUpperCase()
+	class		: java.lang.String;
+	input		: No input
+	output		: String in Upper case
+	Description	: It is used to convert the string into complete upper case
+
+3. length()
+	class		: java.lang.String;
+	input		: No input
+	output		: integer value
+	Description	: It is used to return the length of the string.
+
+4. charAt(int i)
+	class		: java.lang.String;
+	input		: integer
+	output		: character
+	Description	: It is used to return the character at the specified position.
+
+5. concat(String s)
+	class		: java.lang.String;
+	input		: String
+	output		: String
+	Description	: It is used to merge the contents of the existing String with the new string.
+
+6. contains(String s1)
+	class		: java.lang.String;
+	input		: String
+	output		: Boolean
+	Description	: It is used to check if the substring passed is present in the original string 
+				  or not.
+
+7. endsWith(String s1)
+	class		: java.lang.String;
+	input		: String
+	output		: Boolean
+	Description	: It is used to check if the substring passed is the ending part in the 
+				  original string.
+				  
+8. startsWith(String s1)
+	class		: java.lang.String;
+	input		: String
+	output		: Boolean
+	Description	: It is used to check if the substring passed is the starting part in the 
+				  original string.
+
+9. hashCode()
+	class		: java.lang.String;
+	input		: No input
+	output		: integer
+	Description	: It provides the unique number for every object that is created.
+	
+10. getClass()
+	class		: java.lang.String;
+	input		: No input
+	output		: class path
+	Description	: It provides the root class to which the particular object belongs to.
+
+11. indexOf(char c)
+	class		: java.lang.String;
+	input		: character
+	output		: integer
+	Description	: It provides the position value of the given character.
+	
+12. isBlank()
+	class		: java.lang.String;
+	input		: no input
+	output		: boolean
+	Description	: It checks if the given string contains only blank spaces
+
+13. isEmpty()
+	class		: java.lang.String;
+	input		: no input
+	output		: boolean
+	Description	: It checks if the given string doesn't contain any data
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
